@@ -40,7 +40,8 @@ parts:
       - light-themes
       - locales-all
       - shared-mime-info
-      - try: [appmenu-qt5,ttf-ubuntu-font-family]
+      - try: [appmenu-qt5]
+      - fonts-ubuntu
       - xdg-user-dirs
 
       # Other Desktop integration
@@ -65,14 +66,8 @@ parts:
       - libqt5xml5
       
       # Other deps
-      - mpv
-      - ffmpeg
-      - socat
-      - wget
       - coreutils
-      - pv
-      - tar
-      - libtag1v5
+
             
   cleanup:
     after:
