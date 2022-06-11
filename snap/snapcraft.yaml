@@ -55,6 +55,7 @@ parts:
       - qt5-gtk-platformtheme
       - qt5-gtk2-platformtheme
       - qt5-xdgdesktopportal-platformtheme
+      - gsettings-desktop-schemas
 
       # Qt modules from core20
       - libqt5gui5
