@@ -26,18 +26,18 @@ parts:
     plugin: nil
     stage-packages:
       # Platform
-      - adwaita-icon-theme
-      - dmz-cursor-theme
+      #- adwaita-icon-theme
+      #- dmz-cursor-theme
       - fontconfig
       - freeglut3
-      - gnome-themes-standard
+      #- gnome-themes-standard
       - libgdk-pixbuf2.0-0
       - libglib2.0-0
       - libglib2.0-bin
       - libglu1-mesa
       - libice6
       - libxkbcommon0
-      - light-themes
+      #- light-themes
       - locales-all
       - shared-mime-info
       - try: [appmenu-qt5]
@@ -45,30 +45,18 @@ parts:
       - xdg-user-dirs
 
       # Other Desktop integration
-      - libfcitx-gclient1
-      - libfcitx-utils0
-      - fcitx-module-dbus
-      - fcitx
       - ibus-gtk3
       - libibus-1.0-5
       - libcanberra-gtk3-module
       - qt5-gtk-platformtheme
-      - qt5-gtk2-platformtheme
       - qt5-xdgdesktopportal-platformtheme
       - gsettings-desktop-schemas
 
       # Qt modules from core20
       - libqt5gui5
-      - libqt5sql5-sqlite
-      - libqt5svg5 
       - libqt5waylandclient5
       - libqt5webkit5
       - libqt5x11extras5
-      - libqt5xml5
-      
-      # Other deps
-      - coreutils
-
             
   cleanup:
     after:
