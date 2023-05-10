@@ -13,7 +13,7 @@ compression: lzo
 
 architectures:
   - build-on: [amd64]
-    build-for: [arm64]
+    build-for: [amd64]
     
 slots: 
   qt5-core22:
