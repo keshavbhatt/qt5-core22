@@ -40,7 +40,6 @@ parts:
       #- light-themes
       - locales-all
       - shared-mime-info
-      - on amd64: [appmenu-qt5]
       - fonts-ubuntu
       - xdg-user-dirs
 
