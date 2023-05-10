@@ -58,7 +58,7 @@ parts:
       - libqt5waylandclient5
       - libqt5webkit5
       - libqt5x11extras5
-            
+
   cleanup:
     after:
       - qt5
