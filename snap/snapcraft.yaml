@@ -1,6 +1,6 @@
 name: qt5-core22
 base: core22 
-version: '22.04.1'
+version: '22.04.2'
 summary: Qt5 runtime for core22
 description: |
   This snap is to be consumed by various Qt apps which uses Qt 5 packages provided from 
@@ -52,9 +52,10 @@ parts:
       - qt5-xdgdesktopportal-platformtheme
       - gsettings-desktop-schemas
 
-      # Qt modules from core20
+      # Qt modules from core22
       - libqt5gui5
       - libqt5svg5
+      - libqt5sql5-sqlite
       - libqt5waylandclient5
       - libqt5webkit5
       - libqt5x11extras5
